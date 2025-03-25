@@ -1,0 +1,21 @@
+{
+  "name": "chatbot-back",
+  "version": "1.0.0",
+  "description": "backend for chatbot",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "sachithra",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ollama": "^0.5.14"
+  }
+}
